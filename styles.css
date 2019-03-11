@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c0ddf0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: right;
+  color: #047d94;
+}
+
+#city-header {
+  color: tomato;
+  letter-spacing: 10px;
+  font-family: sniglet;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+.blog-img {
+  background-attachment: fixed;
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  background-color: white;
+  padding: 1%;
+  box-shadow: 4px 4px 5px rgb(40, 40, 40);
+}
+
+.blog-img p {
+  text-align: center;
+  margin: 3px;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  color: #007d94;
+}
+
+footer {
+  width: 100%;
+  background-color: #007d94;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 50px;
+  color: #bdf5ff;
+}
